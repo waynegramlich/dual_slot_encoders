@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Quadrature Dual Slot Encoders"
-Date "12 Jul 2014"
-Rev "A"
+Date "29 Jul 2014"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""

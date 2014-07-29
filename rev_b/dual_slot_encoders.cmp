@@ -1,108 +1,108 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sat 12 Jul 2014 08:07:34 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Tue 29 Jul 2014 09:03:30 AM PDT
 
 BeginCmp
 TimeStamp = /53C1592C;
 Reference = H1;
 ValeurCmp = 3MM_HOLE;
-IdModule  = Dual_Slot_Encoders_Rev_A:MountingHole_3mm;
+IdModule  = Dual_Slot_Encoders_Rev_B:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C1668B;
 Reference = H2;
 ValeurCmp = 3MM_HOLE;
-IdModule  = Dual_Slot_Encoders_Rev_A:MountingHole_3mm;
+IdModule  = Dual_Slot_Encoders_Rev_B:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C166B8;
 Reference = H3;
 ValeurCmp = 3MM_HOLE;
-IdModule  = Dual_Slot_Encoders_Rev_A:MountingHole_3mm;
+IdModule  = Dual_Slot_Encoders_Rev_B:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C166E2;
 Reference = H4;
 ValeurCmp = 3MM_HOLE;
-IdModule  = Dual_Slot_Encoders_Rev_A:MountingHole_3mm;
+IdModule  = Dual_Slot_Encoders_Rev_B:MountingHole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C169C0;
 Reference = N1;
 ValeurCmp = ENCODER_CONNECTOR;
-IdModule  = Dual_Slot_Encoders_Rev_A:Pin_Header_Straight_1x04;
+IdModule  = Dual_Slot_Encoders_Rev_B:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C161E7;
 Reference = R1;
 ValeurCmp = 10K;
-IdModule  = Dual_Slot_Encoders_Rev_A:Resistor_Horizontal_400;
+IdModule  = Dual_Slot_Encoders_Rev_B:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C158FC;
 Reference = R2;
 ValeurCmp = 10K;
-IdModule  = Dual_Slot_Encoders_Rev_A:Resistor_Horizontal_400;
+IdModule  = Dual_Slot_Encoders_Rev_B:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15E4E;
 Reference = R3;
 ValeurCmp = 470;
-IdModule  = Dual_Slot_Encoders_Rev_A:Resistor_Horizontal_400;
+IdModule  = Dual_Slot_Encoders_Rev_B:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C1F063;
 Reference = R4;
 ValeurCmp = 470;
-IdModule  = Dual_Slot_Encoders_Rev_A:Resistor_Horizontal_400;
+IdModule  = Dual_Slot_Encoders_Rev_B:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C1F775;
 Reference = TP1;
 ValeurCmp = GND;
-IdModule  = Dual_Slot_Encoders_Rev_A:Pin_Header_Straight_1x01;
+IdModule  = Dual_Slot_Encoders_Rev_B:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15B87;
 Reference = U1;
 ValeurCmp = GP1S094HCZ0F;
-IdModule  = Dual_Slot_Encoders_Rev_A:GP1S094HCZ0F;
+IdModule  = Dual_Slot_Encoders_Rev_B:GP1S094HCZ0F;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15BBA;
 Reference = U2;
 ValeurCmp = GP1S094HCZ0F;
-IdModule  = Dual_Slot_Encoders_Rev_A:GP1S094HCZ0F;
+IdModule  = Dual_Slot_Encoders_Rev_B:GP1S094HCZ0F;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15B02;
 Reference = U3;
 ValeurCmp = GPS1S97HCZ0F;
-IdModule  = Dual_Slot_Encoders_Rev_A:GP1S097HCZ0F;
+IdModule  = Dual_Slot_Encoders_Rev_B:GP1S097HCZ0F;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15B57;
 Reference = U4;
 ValeurCmp = GPS1S97HCZ0F;
-IdModule  = Dual_Slot_Encoders_Rev_A:GP1S097HCZ0F;
+IdModule  = Dual_Slot_Encoders_Rev_B:GP1S097HCZ0F;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C1B3B3;
 Reference = Z1;
 ValeurCmp = OSHW_LOGO;
-IdModule  = Dual_Slot_Encoders_Rev_A:OSHW_LOGO_200mil;
+IdModule  = Dual_Slot_Encoders_Rev_B:OSHW_LOGO_200mil;
 EndCmp
 
 EndListe
