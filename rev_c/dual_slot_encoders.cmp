@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 05 Oct 2014 10:24:50 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 05 Oct 2014 10:51:23 AM PDT
+
+BeginCmp
+TimeStamp = /53C1B3B3;
+Reference = G1;
+ValeurCmp = OSHW_LOGO;
+IdModule  = dual_slot_encoders:OSHW_LOGO_200mil;
+EndCmp
 
 BeginCmp
 TimeStamp = /53C1592C;
@@ -29,10 +36,17 @@ IdModule  = dual_slot_encoders:MountingHole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C169C0;
+TimeStamp = /5431825B;
 Reference = N1;
-ValeurCmp = ENCODER_CONNECTOR;
-IdModule  = dual_slot_encoders:Pin_Header_Straight_1x04;
+ValeurCmp = MOTOR_ENCODER_CONN;
+IdModule  = dual_slot_encoders:Pin_Header_Straight_2x04_Shrouded;
+EndCmp
+
+BeginCmp
+TimeStamp = /543185E5;
+Reference = N2;
+ValeurCmp = MOTOR_CONN;
+IdModule  = dual_slot_encoders:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
@@ -96,13 +110,6 @@ TimeStamp = /53C15B57;
 Reference = U4;
 ValeurCmp = GPS1S97HCZ0F;
 IdModule  = dual_slot_encoders:GP1S097HCZ0F;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C1B3B3;
-Reference = Z1;
-ValeurCmp = OSHW_LOGO;
-IdModule  = dual_slot_encoders:OSHW_LOGO_200mil;
 EndCmp
 
 EndListe
