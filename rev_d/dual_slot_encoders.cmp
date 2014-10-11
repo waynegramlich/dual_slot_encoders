@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 05 Oct 2014 10:51:23 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 11 Oct 2014 09:06:11 AM PDT
 
 BeginCmp
 TimeStamp = /53C1B3B3;
@@ -36,10 +36,10 @@ IdModule  = dual_slot_encoders:MountingHole_3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5431825B;
+TimeStamp = /5438CAE0;
 Reference = N1;
-ValeurCmp = MOTOR_ENCODER_CONN;
-IdModule  = dual_slot_encoders:Pin_Header_Straight_2x04_Shrouded;
+ValeurCmp = MOTOR_ENCODER_CONN_2X5;
+IdModule  = dual_slot_encoders:Pin_Header_Straight_2x05_Shrouded;
 EndCmp
 
 BeginCmp
@@ -50,30 +50,58 @@ IdModule  = dual_slot_encoders:5MM_TERMINAL_BLOCK_2_POS;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C161E7;
-Reference = R1;
-ValeurCmp = 10K;
-IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
+TimeStamp = /54389D1C;
+Reference = Q1;
+ValeurCmp = PN2222;
+IdModule  = dual_slot_encoders:TO92_123;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C158FC;
-Reference = R2;
-ValeurCmp = 10K;
+TimeStamp = /5438A0EB;
+Reference = Q2;
+ValeurCmp = PN2222;
+IdModule  = dual_slot_encoders:TO92_123;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C1F063;
+Reference = R1;
+ValeurCmp = 100;
 IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15E4E;
-Reference = R3;
-ValeurCmp = 470;
+Reference = R2;
+ValeurCmp = 100;
 IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C1F063;
+TimeStamp = /54389DB2;
+Reference = R3;
+ValeurCmp = 3K7;
+IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /54389EFF;
 Reference = R4;
-ValeurCmp = 470;
+ValeurCmp = 3K7;
+IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438A3F5;
+Reference = R5;
+ValeurCmp = 3K3;
+IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438A4F5;
+Reference = R6;
+ValeurCmp = 3K3;
 IdModule  = dual_slot_encoders:Resistor_Horizontal_400;
 EndCmp
 
