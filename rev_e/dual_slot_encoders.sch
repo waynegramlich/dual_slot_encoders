@@ -31,14 +31,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dual_slot_encoders-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Quadrature Dual Slot Encoders"
-Date "Sat 11 Oct 2014"
-Rev "D"
+Date "Thu 30 Oct 2014"
+Rev "E"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -146,13 +146,13 @@ F 3 "" H 7800 4800 60  0000 C CNN
 $EndComp
 Text Notes 3750 5950 0    50   ~ 0
 3mm Slot Gap\n.3mm Slit Width
-Text Label 2100 2100 0    50   ~ 0
+Text Label 2100 2200 0    50   ~ 0
 LED_EN
 Text Label 2100 1800 0    50   ~ 0
 LPWR
-Text Label 2100 1900 0    50   ~ 0
+Text Label 2100 2000 0    50   ~ 0
 A
-Text Label 2100 2200 0    50   ~ 0
+Text Label 2100 2100 0    50   ~ 0
 B
 $Comp
 L OSHW_LOGO G1
@@ -212,12 +212,12 @@ U 1 1 5438CAE0
 P 1400 2050
 F 0 "N1" H 1400 2600 50  0000 C CNN
 F 1 "MOTOR_ENCODER_CONN_2X5" H 1400 1500 50  0000 C CNN
-F 2 "~" H 1200 1000 60  0000 C CNN
+F 2 "" H 1400 2050 60  0000 C CNN
 F 3 "" H 1400 2050 60  0000 C CNN
 	1    1400 2050
 	-1   0    0    -1  
 $EndComp
-Text Label 2100 2000 0    50   ~ 0
+Text Label 2100 1900 0    50   ~ 0
 LGND
 Text Label 2100 2300 0    50   ~ 0
 BPWR
@@ -290,7 +290,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4500 6800 4500
 Wire Wire Line
-	6800 4500 6800 2200
+	6800 4500 6800 2100
 Wire Wire Line
 	3400 5500 2900 5500
 Wire Wire Line
@@ -308,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 6100 7000 6100
 Wire Wire Line
-	7000 6100 7000 1900
+	7000 6100 7000 2000
 Connection ~ 3300 3400
 Connection ~ 2900 4900
 Wire Wire Line
@@ -318,13 +318,13 @@ Wire Wire Line
 Wire Wire Line
 	2900 2300 2900 2800
 Wire Wire Line
-	7000 1900 1800 1900
+	7000 2000 1800 2000
 Wire Wire Line
-	6800 2200 1800 2200
+	6800 2100 1800 2100
 Wire Wire Line
-	1800 2100 2700 2100
+	1800 2200 2700 2200
 Wire Wire Line
-	2700 2100 2700 6000
+	2700 2200 2700 6000
 Connection ~ 2900 6000
 Connection ~ 2900 2300
 Connection ~ 2700 4400
@@ -332,7 +332,7 @@ Connection ~ 3300 4400
 Connection ~ 4900 3600
 Connection ~ 4900 4800
 Wire Wire Line
-	7400 2000 1800 2000
+	7400 1900 1800 1900
 Connection ~ 4900 1800
 Wire Wire Line
 	7500 3200 7400 3200
@@ -348,7 +348,7 @@ Wire Wire Line
 Connection ~ 6800 4000
 Connection ~ 7000 5500
 Wire Wire Line
-	7400 2000 7400 4800
+	7400 1900 7400 4800
 Wire Wire Line
 	1900 1700 1800 1700
 Wire Wire Line
