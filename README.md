@@ -10,4 +10,9 @@ Quadrature encoder using two slot photointerrupters
 
 * Use a 2x4 ribbon cable for both encoder signals and motor power.
 
+## Revision D Issues
+
+* Pins 4/5 and 6/7 are swapped in bus_bridge_encoders_sonar (Rev. C)
+  and dual_slot_encoders (Rev. D).
+
 
