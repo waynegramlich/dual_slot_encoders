@@ -15,5 +15,7 @@ Quadrature encoder using two slot photointerrupters
 * Pins 4/5 and 6/7 are swapped in bus_bridge_encoders_sonar (Rev. C)
   and dual_slot_encoders (Rev. D). [Swapped 4/5 and 6/7.]
 
+## Revision E Issuses
 
+* Both resistors are too close to the edge.
 
